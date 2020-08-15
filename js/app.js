@@ -20,3 +20,10 @@ function agregarTarea(e){
     li.appendChild(botonBorrar)
     listaTareas.appendChild(li)
 }
+
+function borrarTarea(e){
+    e.preventDefault()
+    if(e.target.className === 'borrar-tarea'){
+        e.target.parentElement.remove()
+    }
+}
