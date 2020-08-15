@@ -1,0 +1,14 @@
+h1, h2{
+    text-align: center;
+}
+
+#contenido{
+    margin-top: 25px;
+}
+
+.borrar-tarea, .borrar-tarea:hover{
+    float: right;
+    cursor: pointer;
+    color: #e63946;
+    font-weight: bold;
+}
